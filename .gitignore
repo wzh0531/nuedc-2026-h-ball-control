@@ -1,0 +1,35 @@
+# Keil / ARM toolchain output
+**/Objects/
+**/Listings/
+*.o
+*.d
+*.axf
+*.elf
+*.hex
+*.map
+*.lnp
+*.dep
+*.build_log.htm
+*.uvguix.*
+*.uvoptx
+*_Sequences_*.log
+*_build.log
+
+# Python
+__pycache__/
+*.py[cod]
+firmware/maixcam/local_config.py
+
+# Host test artifacts
+tmp/
+test-artifacts/
+*.exe
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Packaged app output
+dist/

@@ -1,0 +1,18 @@
+id: hei
+name: 1hei
+name[zh]: 自建热点WebRTC钢球标定与串口
+version: 1.5.0
+author: wzh
+icon: ''
+desc: Maix AP, 720p WebRTC, browser recorder, ROI AI and UART
+desc[zh]: MaixCAM固定热点、720p WebRTC、网页录像、ROI识别及UART1。
+files:
+  - ball_position.py
+  - calibrate.py
+  - calibration_config.py
+  - local_config.py
+  - main.py
+  - model_310817.cvimodel
+  - model_310817.mud
+  - report.json
+  - webrtc_record_server.py
